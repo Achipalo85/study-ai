@@ -1,18 +1,16 @@
-# study-ai
+# Study AI
 
-Assistente italiano per compiti, riassunti, mappe mentali e analisi di documenti.
+Assistente italiano con chat Gemini, foto, PDF e audio.
 
-## Setup locale
+## Configurazione Vercel
 
-```bash
-npm install
-npm run dev
-```
+Aggiungi `GEMINI_API_KEY` alle Environment Variables per Production e Preview, quindi esegui Redeploy.
 
-Configura `GEMINI_API_KEY` nelle variabili d'ambiente Vercel o in `.env.local`.
+## Funzioni
 
-## Deploy
-
-Il progetto è pronto per Vercel. Importa il repository GitHub e aggiungi:
-
-- `GEMINI_API_KEY`
+- Chat con streaming
+- Analisi foto e appunti
+- Analisi PDF fino a 100 pagine
+- Trascrizione e riassunto audio
+- Mappe mentali e quiz
+- Interfaccia responsive
